@@ -29,5 +29,10 @@ namespace CakesAndBakes.Models
         {
             return new ApplicationDbContext();
         }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<MemberShipType> MemberShipTypes { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Item> Items { get; set; }
     }
 }
