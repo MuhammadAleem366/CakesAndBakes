@@ -22,3 +22,32 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.margin-top-20{
+    margin-top:20px;
+}
+ul.nav li {
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+    font-variant-caps: all-small-caps;
+    background-color: cornsilk;
+    border-right: 1px solid black;
+}
+
+ul.nav {
+    justify-content: center;
+}
+
+.navbar-link {
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+    font-variant-caps: all-small-caps;
+    background-color: cornsilk;
+    border-right: 1px solid black;
+}
